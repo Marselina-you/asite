@@ -19,7 +19,8 @@ import { html } from "./gulp/tasks/html.js";
 import { server } from "./gulp/tasks/server.js";
 import { scss } from "./gulp/tasks/scss.js";
 import { js } from "./gulp/tasks/js.js";
-import { otfToTtf, ttfToWoff, fontStyle } from './gulp/tasks/fonts.js'
+import { otfToTtf, ttfToWoff, fontStyle } from './gulp/tasks/fonts.js';
+import { zip } from './gulp/tasks/zip.js';
 
 //наблюдатель за изменениями в файлах
 function  watcher() {
@@ -35,5 +36,11 @@ const fonts = gulp.series(otfToTtf, ttfToWoff, fontStyle);
 const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js));
 //построение сценариев выполнения задач
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
+const build = gulp.series(reset, mainTasks);
+const deployZIP = gulp.series(reset, mainTasks, zip);
+
+export { dev }
+export { build }
+export { deployZIP }
 //выполнение сценария по умолчанию
 gulp.task('default', dev);
