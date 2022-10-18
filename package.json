@@ -1,11 +1,27 @@
 {
   "name": "asite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alferova",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marselina-you/asite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marselina-you/asite/issues"
+  },
+  "homepage": "https://github.com/Marselina-you/asite#readme",
+  "description": "",
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-webp-html-nosvg": "^1.1.1"
+  }
 }
