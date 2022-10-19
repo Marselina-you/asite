@@ -1,0 +1,2 @@
+[2022-10-19 00:07:58] layer "+48 793 592 266           +48 730 572 887": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2022-10-19 00:15:41] layer "dafhouse.info@gmail.com": Unsupported extension: com
