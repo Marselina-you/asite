@@ -1,6 +1,14 @@
 
                 @font-face {
-                  font-family: Roboto-BlackItalic;
+                  font-family: Roboto-Black;
+                  font-display: swap;
+                  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+                  font-weight: 900;
+                  font-style: normal;
+                }
+
+                @font-face {
+                  font-family: Roboto;
                   font-display: swap;
                   src: url("../fonts/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/Roboto-BlackItalic.woff") format("woff");
                   font-weight: 400;
@@ -10,16 +18,8 @@
                 @font-face {
                   font-family: Roboto;
                   font-display: swap;
-                  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
-                  font-weight: 400;
-                  font-style: normal;
-                }
-
-                @font-face {
-                  font-family: Roboto;
-                  font-display: swap;
-                  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
-                  font-weight: 900;
+                  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+                  font-weight: 700;
                   font-style: normal;
                 }
 
@@ -34,15 +34,7 @@
                 @font-face {
                   font-family: Roboto;
                   font-display: swap;
-                  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
-                  font-weight: 700;
-                  font-style: normal;
-                }
-
-                @font-face {
-                  font-family: Roboto;
-                  font-display: swap;
-                  src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
+                  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
                   font-weight: 400;
                   font-style: normal;
                 }
@@ -50,7 +42,7 @@
                 @font-face {
                   font-family: Roboto;
                   font-display: swap;
-                  src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+                  src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
                   font-weight: 400;
                   font-style: normal;
                 }
@@ -66,6 +58,14 @@
                 @font-face {
                   font-family: Roboto;
                   font-display: swap;
+                  src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+                  font-weight: 400;
+                  font-style: normal;
+                }
+
+                @font-face {
+                  font-family: Roboto-Medium;
+                  font-display: swap;
                   src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
                   font-weight: 500;
                   font-style: normal;
@@ -80,7 +80,7 @@
                 }
 
                 @font-face {
-                  font-family: Roboto-ThinItalic;
+                  font-family: Roboto;
                   font-display: swap;
                   src: url("../fonts/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/Roboto-ThinItalic.woff") format("woff");
                   font-weight: 400;
@@ -88,7 +88,7 @@
                 }
 
                 @font-face {
-                  font-family: Roboto;
+                  font-family: Roboto-Thin;
                   font-display: swap;
                   src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
                   font-weight: 100;

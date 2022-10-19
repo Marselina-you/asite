@@ -7,39 +7,41 @@
    
            
     <body>
-        <header>
-            <div class="container-fluid">
-                <div class="col-6 d-flex">
-                    <div class="col-1 offset-1">
-                        <img src="https://via.placeholder.com/75x73" alt="">
-                    </div>
-                    <div class="d-flex">
-                        <img src="https://via.placeholder.com/32x21" alt="">
-                        <div class="size25">dafhouse.info@gmail.com</div>
-                    </div>
-                    <div class="">
-                    <div class="d-flex">
-                        <img src="https://via.placeholder.com/23x23" alt="">
-                        <div class="">+48 793 592 266</div>
-                    </div>
-                    <div class="d-flex">
-                        <img src="https://via.placeholder.com/23x23" alt="">
-                        <div class="">+48 793 592 266</div>
+        <div class="container-fluid padding_null">
+            @@include('html/header.html',{})
+        <main>
+            <section class="col-12 color_black">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                    <div class="d-flex padding50 justify-content-center">
+                    <div class="padding18"><img src="https://via.placeholder.com/70x70" alt=""></div>
+                    <div class="padding18"><img src="https://via.placeholder.com/70x70" alt=""></div>
+                    <div class="padding18"><img src="https://via.placeholder.com/70x70" alt=""></div>
+                    <div class="padding18"><img src="https://via.placeholder.com/70x70" alt=""></div>
+                    <div class="padding18"><img src="https://via.placeholder.com/70x70" alt=""></div>
                     </div>
                 </div>
+            <div class="padding58_bottom">
+            <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 color_grey">
+                <div class="section_padding">
+                <div class="size41 text-center padding50_bottom color_font_yellowDark">SVBud</div>
+                <div class="size33 text-center">PRACOWNIA</br> 
+                    ARCHITEKTONICZNO-BUDOWLANA</div>
                 </div>
             </div>
-        </header>
-        <main>
-            <div class="container-fluid"></div>
-            
-        </main>
-        <footer>
-            <div class="container-fluid"></div>
-            
-        </footer>
-       
+        </div>
+        </section> 
+        <section class="padding64-60 color_background_yellow">
+            <div class="text-center size41 padding15-bottom">NAPISZ DO NAS</div>
+            <div class="text-center size33 padding148-bottom">Odpowiemy na wszelkie pytania</div>
+            <div class="col-xl-6 col-lg-8 col-md-8 col-sm-8 col-10 offset-xl-3 offset-lg-2 offset-md-2 offset-sm-2 offset-1 d-flex justify-content-center color_white borderBlack">
+                <div class="col-6 text-center size33  padding45-24">Czym jesteś zainteresowany?</div></div>
+        </section>
+        @@include('html/section_last.html',{})
 
+        </main>
+        
+    </div>
+    @@include('html/footer.html',{})
 
     
         
