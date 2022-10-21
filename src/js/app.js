@@ -1,12 +1,21 @@
-import * as flsFunctions from "./modules/functions.js"; 
-flsFunctions.isWebp();
+//import * as flsFunctions from "./modules/functions.js"; 
+//flsFunctions.isWebp();
+let items = document.querySelectorAll('.carousel .carousel-item')
 
-//import Swiper, { Navigation, Pagination } from 'swiper';
+items.forEach((el) => {
+    const minPerSlide = 3
+    let next = el.nextElementSibling
+    for (var i=1; i<minPerSlide; i++) {
+        if (!next) {
+            // wrap carousel by using first child
+        	next = items[0]
+      	}
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
 
-//gulpconst swiper = new Swiper();
 
 
-//var myCarousel = document.querySelector('#myCarousel')
-//var carousel = new bootstrap.Carousel(myCarousel)
 
-//$('#carousel-notification').bCarousel();
