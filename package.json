@@ -46,8 +46,12 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
     "sass": "^1.55.0",
+    "swiper": "^8.4.4",
     "webp-converter": "^2.2.3",
     "webpack": "^5.74.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
   }
 }
