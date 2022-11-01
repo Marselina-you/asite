@@ -1,38 +1,78 @@
-<footer class="bg-black">
-    <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-12 col-12 d-flex flex-column py-5">
-        <div class="d-flex align-items-end justify-content-center padding10-bottom">
-        <div class="d-flex align-items-center justify-content-center"><img src="https://via.placeholder.com/30x30" alt=""></div>
-        <div class="ps-3 fs-4 color_font_yellow">Rozalin 05-831 Młochowska 88-1</div>
-    </div>
-    <div class="d-flex flex-column">
-        <div class="d-flex align-items-center justify-content-center pb-3">
-            <div class=""><img src="https://via.placeholder.com/23x23" alt=""></div>
-            <div class="ps-3 fs-4 letterSpace1 color_font_yellow">+48 793 592 266</div>
-        </div>
-        <div class="d-flex align-items-center justify-content-center pb-3">
-            <div class=""><img src="https://via.placeholder.com/23x23" alt=""></div>
-            <div class="ps-3 fs-4 letterSpace1 color_font_yellow">+48 793 592 266</div>
-        </div></div>
-        <div class="d-flex align-items-center justify-content-center pb-4">
-            <div class=""><img src="https://via.placeholder.com/32x21" alt=""></div>
-            <div class="ps-3 fs-4 color_font_yellow">dafhouse.info@gmail.com</div>
+<footer>
+    <section>
+      <div class="bg-image-1 py-3">
+        <div class="py-4">          
+            <div class=""><h2 class="text-vividGreen text-center fs-2">Контакты</h2></div>
+            <div class="justify-content-center">
+              <div class="text-darkBrown fs-4 justify-content-center text-center">ООО"Леткино"</div>
+              <div class="text-darkBrown fs-4 justify-content-center text-center">
+                Калязинский район, д.Леткино, стр.2</div>
             </div>
-            <div class="fs-4 text-uppercase d-flex color_font_yellow align-items-center justify-content-center pb-4">BĄDŻ NA BIEŻĄCO:</div>
-        <div class="">
-            <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center align-items-xl-end align-items-lg-end align-items-md-end align-items-sm-center align-items-center mb-2">
-                <div class="d-flex">
-                    <div class="p-2"><img src="https://via.placeholder.com/70x70" alt=""></div>
-                    <div class="p-2"><img src="https://via.placeholder.com/70x70" alt=""></div>
-                    <div class="p-2"><img src="https://via.placeholder.com/70x70" alt=""></div>
-                </div>
-                <div class="d-flex">
-                    <div class="p-2"><img src="https://via.placeholder.com/70x70" alt=""></div>
-                    <div class="p-2"><img src="https://via.placeholder.com/70x70" alt=""></div>
-                </div>
-            </div>
+            <div class="text-darkBrown fs-4 justify-content-center text-center">+7 <span class="text-vividGreen">495 679 45 45</span></div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="bg-vividGreen fs-4">
+        <div class="py-4 text-center justify-content-center text-light"><h2>Напишите нам!</h2></div>
+     
+          <form action="" method="post"  class="col-lg-12 py-4">
+        <div class="py-1 input-wrap">
+                  <input type="text" name="name" placeholder="*Имя" class="pb-3 ps-2 col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1"/>
+              </div>
+              <div class="py-1 input-wrap">
+                  <input type="text" name="email" placeholder="*E-mail" class="pb-3 ps-2 col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1"/>
+              </div>
+              <div class="py-1 input-wrap">
+                 <input type="text" name="tema" placeholder="*Тема" class="pb-3 ps-2 col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1"/>
+              </div>
+              <div class="py-1 input-wrap">
+                  <textarea type="text" name="letter" placeholder="*Ваше сообщение" class="ps-2 col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1"></textarea>
+              </div>
+              <div class="py-1 d-flex justify-content-center">
+                  <input type="submit" value="отправить" name ="submit" class="fs-4 btn btn-dark"/>
+              </div>
+              </form></div>
+    </section>
+    <section>
+      <div class="bg-putty align-items-center d-flex justify-content-center col-lg-12">
+        <div class="p-4 col-lg-2 offset-lg-1 col-md-6 col-sm-6 d-flex justify-content-center"><div class="">Alferova@studio2020</div></div>
+        <div class="p-4 d-flex col-lg-2 offset-lg-6 col-md-6 col-sm-6 justify-content-center">
+          <div class="p-4"><img src="@img/face.png" alt=""></div>
+          <div class="p-4"><img src="@img/vk.png" alt=""></div>
+          <div class="p-4"><img src="@img/twit.png" alt=""></div>
+          <div class="p-4"><img src="@img/what.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    </footer></div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/app.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+   
+    const slider = $(".slide-one").owlCarousel({
+        loop:true,
+        margin:0,
+        dots:true,
+        nav:true,
+        navText:  [""],
         
-    </div>
-    
-    
-</footer>
+        autoplay:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+});
+</script>
+    </body>
+</html>

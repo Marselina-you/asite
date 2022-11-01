@@ -5,128 +5,71 @@
     })
 <body>
   <div class="container-fluid p-0">
-@@include('html/header.html',{})
-@@include('html/section1.html',{})
-<section class="pt-5 pb-5 mt-3 mt-5">
-  <div class="col-xl-10 offset-xl-1">
-      <div class="text-center fs-1 text-uppercase pb-5 mb-3">O NAS</div>
-  <div class="col-10 offset-1 text-center fs-4 lh-sm">SVBud to firma oferująca usługi projektowania wnętrz, budowy domów, przeprowadzania remontów 
-      oraz wykańczania pod klucz. 
-      Oferujemy kompleksową usługę obejmującą projektowanie domów, projektowanie wnętrz, 
-      oraz realizację przygotowanych przez nas projektów.
-      Zaproponujemy układ funkcjonalny Twojego doma czy mieszkania, wizualizacje wnętrza, 
-      sprawdzone materiały do konfiguracji Twojego mieszkania, rzetelną ekipę wykonawczą.
-      Zatrudniamy doświadczonych fachowców, którzy starannie i terminowo wykonują prace budowlane, 
-      wykończeniowe i remontowe.
+    <div class="bg-image">
+    <header>
+      <!--<img src="@img/title-fon.jpg">-->
+      <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 offset-md-1 offset-lg-1 offset-xl-2 pt-4 mt-2">
+        <div class="bg-putty-light p-3 d-flex align-items-center justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-between">
+          <div class="col-xl-3 col-lg-2 col-md-2 col-sm-4 col-4">
+            <div class="">
+              <div class=""><img src="@img/logo.png"></div>
+            </div>
+          </div>
+          
+          <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column col-xl-9 col-lg-10 col-md-10 col-sm-8 col-8 justify-content-xl-between justify-content-lg-between justify-content-md-between align-items-center">
+            <div class="">
+              <div class="h5 fw-bold lt-spacing"><a href="" class="text-decoration-none text-darkBrown">Магазин</a></div>
+            </div>
+            <div class="">
+              <div class="h5 fw-bold lt-spacing"><a href="" class="text-decoration-none text-darkBrown">О нас</a></div>
+            </div>
+            <div class="">
+              <div class="h5 fw-bold lt-spacing"><a href="" class="text-decoration-none text-darkBrown">Где купить</a></div>
+            </div>
+            <div class="">
+              <div class="h5 fw-bold lt-spacing"><a href="" class="text-decoration-none text-darkBrown">Доставка</a></div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </header>
+    
+      <section class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 px-2 offset-xl-2 offset-lg-1 offset-md-1">
+        <div class="owl-carousel slide-one owl-theme d-flex justify-content-center flex-column my-5" id="slider">
+        <div class="owl-slide d-flex align-items-center" style="background-image: url('@img/slide1.png')">
+          <div class="slide__title col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 fs-2 text-light text-center lh-xl-lg mt-n5-my bg-warmGrey">Ферма-сыроварня «Леткино» работает с 1995
+            года, основное направление - 
+            производство сыров по европейским стандартам
+           из натурального сырья</div>
+          </div>
+          <div class="owl-slide d-flex align-items-center" style="background-image: url('@img/slide2.png')">
+            <div class="slide__title col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 fs-2 text-light text-center lh-xl-lg mt-n5-my bg-warmGrey">Мы готовим сыры из натурального коровьего,
+              козьего и овечьего молока. Мы сами выращиваем 
+              и ухаживаем за нашими животными</div>
+            </div>
+          <div class="owl-slide d-flex align-items-center" style="background-image: url('@img/slide3.png')">
+              <div class="slide__title col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 fs-2 text-light text-center lh-sm mt-n5-my bg-warmGrey">Наша ферма находится в 100 км от Москвы,
+                в деревне Леткино. Здесь вы можете увидеть все
+                сами: пообщаться с животными, посетить 
+                дегустационную избу, посмотреть на процесс
+                приготовления и познакомиться с мастерами</div>
+          </div>
+          <div class="owl-slide d-flex align-items-center" style="background-image: url('@img/slide4.png')">
+            <div class="slide__title col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 fs-2 text-light text-center lh-sm mt-n5-my bg-warmGrey">НАШ АДРЕС</br>
+              Калязинский район, д.Леткино, стр.2</br>
+                  +7495 679 45 45</div>
+          </div>
+          <div class="owl-slide d-flex align-items-center" style="background-image: url('@img/slide5.png')">
+            <div class="slide__title col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 fs-2 text-light text-center lh-lg mt-n5-my bg-warmGrey"><div class="text-uppercase">ДОСТАВИМ ПО ВАШЕМУ АДРЕСУ</div>
+            <div class="text-uppercase">БЕСПЛАТНО</div>
+            <div class="">Доставка осуществляется по будням</div>
+            <div class="">с 10.00 до 20.00</div></div>
+        </div>
       </div>
-  <div class="col-10 lh-sm offset-1 text-center fs-4 py-5 mb-5">Projektuwanie? Wykończenie mieszkania lub domu? 
-      Zlećcie to naszej firmie!</div>
-  <div class="text-center fs-1 pt-5 mt-5 text-uppercase">PORTFOLIO PROJEKTÓW</div>
-  <div class="d-flex justify-content-center pt-5 pb-4"><svg width="248" height="16">
-      <rect width="248px" height="16px" style="fill:rgb(205, 190, 158)" />
-   </svg></div>
-  <div class="text-center fs-3 pb-5 mb-5">Projektowanie wnętrz</div>
-</div>
 </section>
-<section class="col-10 offset-1">
-<div class="owl-carousel slide-one owl-theme d-flex justify-content-center" id="slider">
-<div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide1.png"></div>
 </div>
-<div class="owl-slide">
-  <div class="slide__title"><img src="@img/slide1.png"></div>
-</div>
-<div class="owl-slide">
-  <div class="slide__title"><img src="@img/slide1.png"></div>
-</div>
-<div class="owl-slide">
-  <div class="slide__title"><img src="@img/slide1.png"></div>
-</div>
-</div>
-</section>
-<div class="d-flex justify-content-center pt-5 mt-5 pb-5"><svg width="248" height="16">
-  <rect width="248px" height="16px" style="fill:rgb(205, 190, 158)" />
-</svg></div>
-<div class="text-center fs-3 pb-5 mb-5">Projektowanie doów</div>
-<section class="col-10 offset-1">
-  <div class="owl-carousel slide-one owl-theme d-flex justify-content-center" id="slider">
-  <div class="owl-slide">
-      <div class="slide__title"><img src="@img/slide2.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide2.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide2.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide2.png"></div>
-  </div>
-  </div>
-  </section>
-  <div class="d-flex justify-content-center pt-5 mt-5 pb-5"><svg width="248" height="16">
-    <rect width="248px" height="16px" style="fill:rgb(205, 190, 158)" />
- </svg></div>
- <div class="text-center fs-3 pb-5 mb-5">Budownictwo</div>
- <section class="col-10 offset-1">
-  <div class="owl-carousel slide-one owl-theme d-flex justify-content-center pb-5 mb-5" id="slider">
-  <div class="owl-slide">
-      <div class="slide__title"><img src="@img/slide3.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide3.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide3.png"></div>
-  </div>
-  <div class="owl-slide">
-    <div class="slide__title"><img src="@img/slide3.png"></div>
-  </div>
-  </div>
-  </section>
-  @@include('html/section2.html',{})
+
+
+
+@@include('html/footer.html',{})
   
-  @@include('html/sectionLast1.html',{})
-  @@include('html/sectionLast2.html',{})
-  @@include('html/sectionLast3.html',{})
-  @@include('html/footer.html',{})
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script type="text/javascript">
-   $(document).ready(function(){
-    const slider = $(".slide-one").owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-         navText:  ["<img src='@img/arrow-left.png'>","<img src='@img/arrow-right.png'>"],
-        dots:false,
-        autoplay:false,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
-});
-</script>
-    </body>
-</html>
